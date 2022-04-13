@@ -1,22 +1,17 @@
 console.log("Connected!")
-//let string = "this is a string"
-//console.log(string.split(" ").length)
 // YOU WILL MODIFY THIS FUNCTION TO GET THE PROGRAM TO WORK
-
-
 const wordCounter = (value) => {
   // Type into the input and press submit, you will see the value you entered in your console
-  
   console.log(value);
 
   if (value) {
     // COMPLETE THE LOGIC 
-    wordCount.innerHTML = `Word Count: ${value.split(" ").length}`;
-   } else {
+    wordCount.innerHTML = `Word Count: ${value.split(" ").length}`; 
+  } else {
     // if the value is empty, set the error message value to "Please input text"
     error.innerHTML = "Please input text"; // UPDATE THIS
   }
-};
+}
 
 // OPTIONAL CHALLENGE
 const toggleMode = (btnText) => {
