@@ -17,14 +17,14 @@ const wordCounter = (value) => {
 const toggleMode = (btnText) => {
 
 if (btnText === "Dark Mode"){
-  document.body.style.background = "black"
-  document.body.style.color = "white"
-  toggleButton.innerHTML = "Light Mode"
+  document.body.style.background = "black";
+  document.body.style.color = "white";
+  toggleButton.innerHTML = "Light Mode";
 
 }else {
-  document.body.style.background = "white"
-  document.body.style.color = "black"
-  toggleButton.innerHTML = "Dark Mode"
+  document.body.style.background = "white";
+  document.body.style.color = "black";
+  toggleButton.innerHTML = "Dark Mode";
 }
 }
 
